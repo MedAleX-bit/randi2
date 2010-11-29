@@ -20,6 +20,8 @@ import javax.faces.context.FacesContext;
 import javax.faces.event.ActionEvent;
 import javax.faces.model.SelectItem;
 
+import com.icesoft.faces.context.Resource.Options;
+
 import lombok.Getter;
 import lombok.Setter;
 

@@ -10,3 +10,4 @@ nb-configuration.xml
 .project
 .springBeans
 *.orig
+.scala_dependencies
