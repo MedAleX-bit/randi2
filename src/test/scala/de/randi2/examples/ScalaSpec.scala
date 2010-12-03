@@ -6,13 +6,17 @@ import org.scalatest.Spec
 import org.scalatest.matchers.ShouldMatchers
 import de.randi2.model.Person
  
+
+/**
+ *@author Daniel Schrimpf <ds@randi2.de>
+ */
 @RunWith(classOf[JUnitRunner])
 class ScalaSpec extends Spec with ShouldMatchers {
     
 	
 	describe("A Person") {
 
-    describe("(when new)") {
+    describe("when new") {
 
       val person = new Person
 
